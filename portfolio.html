@@ -5,48 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
+    <style>
+        .format{
+            justify-content: center;
+            padding: 8% 40% 6% 40%;
+            border: solid 3.5mm white;
+        }
+        .nome{
+            color: white;
+            font-size:40px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        .texto{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+        }
+        .botao{
+            border: none;
+            text-align: center;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        body{
+            background-color: #427176;
+            margin: 0;
+        }
+    </style>
+    
 </head>
-<style>
-    .format{
-        float: left;
-        padding: 150px 650px 150px 200px;
-    }
-    .nome{
-        color: white;
-        font-size:45px;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    .texto{
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    .botao{
-        padding: 10px 10px 10px 150px;
-        color: white;
-        text-align: right;
-    }
-    body{
-        background-color: black;
-    }
-</style>
+
 
 <body>
     
     <div class="format">
 
         <div class="nome">
-            <strong>Mayara Alves<br>Ferreira <hr></strong>
+            <strong>Mayara Alves Ferreira<hr></strong>
         </div>
 
         <div class="texto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab sit consequatur voluptatum laboriosam, possimus dolores aspernatur voluptatem harum, delectus nam similique id. Nemo aperiam rerum praesentium, reprehenderit fugit laboriosam.
+            Estudante do 5º Período de Sistemas de Informação, 19 anos, natural de Tucuruí/PA. Atualmente bolsista do Instituto de Geociências e Engenharias (IGE), e com interesse em se especializar em Banco de Dados. :)
         </div>
         <br>
         <div class="botao">
             
-                <a href="https://www.linkedin.com/in/mayara-alves-0370121ba/" target="_blank">Linkedin |</a>
+                <button class="botao linkedin"><a href="https://www.linkedin.com/in/mayara-alves-0370121ba/" target="_blank">Linkedin</a></button>
          
-                <a href="https://github.com/mayaralv3s" target="_blank">Github</a>
+                <button class="botao git"><a href="https://github.com/mayaralv3s" target="_blank">Github</a></button>
            
         </div>
     </div>
